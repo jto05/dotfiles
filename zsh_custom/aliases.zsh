@@ -6,3 +6,7 @@ alias lt='lsd --tree'
 
 alias ls='lsd'
 alias lsa="lsd -a"
+
+# tmux
+alias ta="tmux new-session -A -s"
+alias td="tmux kill-session -t"
