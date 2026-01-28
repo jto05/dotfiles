@@ -19,3 +19,5 @@ plugins=(git aliases)
 export ZSH_CUSTOM="$HOME/zsh_custom"
 
 source $ZSH/oh-my-zsh.sh
+
+bindkey -v
