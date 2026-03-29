@@ -1,0 +1,58 @@
+{
+ "Begin/End": {
+    "prefix": "beg",
+    "body": [
+      "\\begin{$1}",
+      "  $0",
+      "\\end{$1}"
+    ]
+  },
+  "not": {
+    "prefix": "bar",
+    "body": [
+      "\\bar{$0}"
+    ]
+  },
+  "not": {
+    "prefix": "bar",
+    "body": [
+      "\\bar{$0}"
+    ]
+  },
+  "inline text": {
+    "prefix": "it",
+    "body": [
+      "\\text{$0}"
+    ]
+  },
+  "subscript": {
+    "prefix": "sj",
+    "body": [
+      "{$1}_{$0}"
+    ]
+  },
+  "inline math": {
+    "prefix": "im",
+    "body": [
+      "\\($0\\)"
+    ]
+  },
+  "align": {
+    "prefix": "a",
+    "body": [
+      "& $0"
+    ]
+  },
+  "align equals": {
+    "prefix": "ae",
+    "body": [
+      "& = $0"
+    ]
+  },
+  "double align ": {
+    "prefix": "aa",
+    "body": [
+      "&& $0"
+    ]
+  }
+}

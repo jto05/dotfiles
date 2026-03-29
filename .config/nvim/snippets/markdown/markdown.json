@@ -1,0 +1,10 @@
+{
+  "Inline Math": {
+    "prefix": "mk",
+    "body": "$$0$$"
+  },
+  "Bold": {
+    "prefix": "**",
+    "body": "**$0**"
+  }
+}
