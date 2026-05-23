@@ -2,6 +2,9 @@
 export PATH=$HOME/bin:$HOME/.local/bin:/usr/local/bin:$PATH 
 export PATH="$PATH:/opt/nvim-linux-x86_64/bin:$PATH/.cargo/bin"
 
+# go stuff
+export PATH="/usr/local/go/bin:$HOME/go/bin/:$PATH"
+
 # Path to your Oh My Zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
 
@@ -10,7 +13,7 @@ export ZSH="$HOME/.oh-my-zsh"
 # load a random theme each time Oh My Zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
-ZSH_THEME="robbyrussell"
+ZSH_THEME="bureau"
 
 # vi-mode
 typeset -g VI_MODE_SET_CURSOR=true
@@ -32,7 +35,7 @@ export PYENV_ROOT="$HOME/.pyenv"
 eval "$(pyenv init - -zsh)"
 
 
-. "$HOME/.local/bin/env"
+#. "$HOME/.local/bin/env"
 
 . "$HOME/.profile"
 
