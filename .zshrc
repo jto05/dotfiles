@@ -1,6 +1,6 @@
 # If you come from bash you might have to change your $PATH.
 export PATH=$HOME/bin:$HOME/.local/bin:/usr/local/bin:$PATH 
-export PATH="$PATH:/opt/nvim-linux-x86_64/bin:$PATH/.cargo/bin"
+export PATH=$PATH:/opt/nvim-linux-x86_64/bin:/opt/cargo/bin
 
 # go stuff
 export PATH="/usr/local/go/bin:$HOME/go/bin/:$PATH"

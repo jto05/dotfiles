@@ -4,6 +4,7 @@ local wezterm = require 'wezterm'
 local config = wezterm.config_builder()
 
 -- font and color scheme
+config.font = wezterm.font 'CaskaydiaMonoNerdFont'
 config.font_size = 14
 config.color_scheme = 'Gruvbox Dark (Gogh)'
 config.window_background_opacity = 1.0
