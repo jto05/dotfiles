@@ -62,7 +62,7 @@ input {
 
     trackpoint {
         // off
-        accel-speed 0.4
+        accel-speed 0.6
         accel-profile "flat"
         // scroll-method "on-button-down"
         // scroll-button 273
@@ -204,9 +204,6 @@ animations {
 // Work around WezTerm's initial configure bug
 // by setting an empty default-column-width.
 window-rule {
-    // This regular expression is intentionally made as specific as possible,
-    // since this is the default config, and we want no false positives.
-    // You can get away with just app-id="wezterm" if you want.
     match app-id=r#"^org\.wezfurlong\.wezterm$"#
     default-column-width {}
 }
